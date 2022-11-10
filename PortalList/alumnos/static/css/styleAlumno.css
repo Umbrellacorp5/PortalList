@@ -1,0 +1,284 @@
+@charset "UTF-8";
+:root {
+  /*Variables de colores*/
+  --color-primary: orange; /*Botones*/
+  /*cambiara hexa*/
+  --color-secondary: skyblue;
+  --color-white: #FFFFFF;
+  --color-black: #000;
+  --color-grey-0: #f8f8f8;
+  --color-grey-1: #dbe1e8;
+  --color-grey-2: #b2becd;
+  --color-grey-3: #6c7983;
+  --color-grey-4: #454e56;
+  --color-grey-5: #2a2e35;
+  --color-grey-6: #12181b;
+  --box-shadow-1: 0 1px 1px rgba(0, 0, 0, .3);
+  --color-background: #bed1e6;
+}
+
+#seleccionarRegistroBody {
+  background-color: var(--color-background);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  display: grid;
+}
+
+#seleccionarRegistroHeader {
+  width: auto;
+  text-align: center;
+  padding: 15px;
+}
+#seleccionarRegistroHeader .container #navbarNavDropdown {
+  text-align: right;
+}
+#seleccionarRegistroHeader .container .row .col-6 a {
+  text-decoration: none;
+}
+#seleccionarRegistroHeader .container .row .col-6 a .title {
+  text-align: center;
+}
+#seleccionarRegistroHeader .container .row .col-6 .img {
+  height: auto;
+  border: 1px solid #fd7e14;
+  border-radius: 25%;
+  padding: 5px;
+  width: 150px;
+  text-align: left;
+}
+
+#seleccionarRegistroMain {
+  padding: 30px;
+  padding-top: 10px;
+}
+#seleccionarRegistroMain .container-flex .row .col-6 .form .btn btn-primary {
+  padding-top: 10px;
+}
+
+#seleccionarRegistroFooter {
+  text-align: left;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+/*-------------------------------------------------------------Eligir Usuario--------------------------------------------------------*/
+#bodyElegirUsuario {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#btnElegirAlumno {
+  text-decoration: none;
+  padding: 10px 60px;
+  font-size: 20px;
+  color: #ffffff;
+  background:#000000bd;
+  border-radius: 1px;
+  border: 2px solid rgba(0, 0, 0, 0);
+}
+
+#btnElegirProfesor {
+  text-decoration: none;
+  padding: 10px 60px;
+  font-size: 20px;
+  color: #ffffff;
+  background:#000000bd;
+  border-radius: 1px;
+  border: 2px solid rgba(0, 0, 0, 0);
+}
+
+#contactUsElegirUsuario{
+  text-decoration: none;
+  color: #000;
+}
+
+#footerElegirUsuario {
+  margin: 0 0 0px;
+  font-size: 18px;
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 0px;
+}
+
+#elegirUsuarioTitle {
+  padding: 20px 0;
+  font-size: 50px;
+  font-weight: 600px;
+  text-align: center;
+}
+
+#tituloElegirUsuario{
+  display: inline;
+  color: white;
+  text-decoration-color: white;
+  width: 100px;
+  height: 100px;
+  margin-top: 0%;
+}
+
+#plImgElegirAlumno{
+  display: inline;
+height: 95%;
+margin-top: 0%;
+height: 95%;
+
+}
+
+#headerElegirAlumno{
+  background-color:#238ce1;
+  height: 130px; ;}
+
+
+  #mainElegirAlumno{
+    margin-top: 2%;
+    background-image: url(https://lh6.googleusercontent.com/proxy/s0IF_MvDmv1jdlladqZnMNDEC50BEiVew9Puccn58_MPm4X6POC2qSoVEEzfgBjqt2Dzs4pDIs_g54LWi1On4ohScjt4KByyEdCC5v5EN5wV843g6VL0iPjtRGm4sSbn0thxYMgZBbib3kF9QzavklSwKWifEOgHbq-Q2g=w1200-h630-p-k-no-nu) ;
+    color: #FFFFFF;
+    height: 600px;
+    width: 90%;
+    position: relative;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 5%;
+    background-size: 120%;
+
+  }
+
+/*-------------------------------------------------------------Asistencia-----------------------------------------------------------------------------*/
+#portalListAsisti {
+  padding: 20px 0;
+  font-size: 50px;
+  font-weight: 600px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
+
+#footerAsistencia{
+  margin: 0 0 0px;
+  font-size: 18px;
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 70px;
+}
+
+#btnAsisti{
+  position: relative;
+  display:inline;
+    text-decoration: none;
+    padding: 4px 20px;
+    font-size: 20px;
+    color: #ffffff;
+    background:#000000d0;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+#plImgAsistencia{
+  display: block;
+  position: block;
+  max-width: 500px;
+  max-height: 400px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: -75px;
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+#mainAsistencia{
+  text-align: center;
+  background-color:#73c0ff;
+  height: 650px; ;
+}
+
+
+#tituloIngAlu{
+  text-align: center;
+  display: inline;
+  color: rgb(0, 0, 0);
+  text-decoration-color: rgb(0, 0, 0);
+  width: 100px;
+  height: 100px;
+  margin-top: 0%;
+}
+
+#plImgAlu{
+  display: inline;
+height: 95%;
+margin-top: 0%;
+height: 95%;
+
+}
+
+#headerIngAlu{
+  text-align: center;
+  background-color:#ffffff;
+  height: 100px; ;
+}
+
+#logoBlancoAsist{
+  height: 30%;
+  width: 30%;
+}
+
+#formAsist{
+  text-align: center;
+  position: relative;
+  margin-left: 19%;
+  background-color: white;
+  max-width: 1500px;
+  max-height: 1500px;
+  width: 250px;
+  height: 200px;
+  border-radius: 10%;
+}
+
+#objCerrar{
+ text-decoration: solid;
+  color: #000;
+}
+
+
+/*--------------------------------------Ingresar Alumno---------------------------------------------*/
+
+
+#headerIngresarAlumno{
+  position: relative;
+  background-color:#000;
+  height: 130px; ;}
+
+
+#tituloIngresarAlumno{
+  display: inline;
+  color: white;
+  margin-left: 2%;
+  text-decoration-color: white;
+  width: 100px;
+  height: 100px;
+  margin-top: 0%;
+}
+
+#imgIUser{
+  height: 5%;
+  width: 5%;
+}
+
+#btnLoginIA{
+  position: relative;
+  display:inline;
+    text-decoration: none;
+    padding: 4px 20px;
+    font-size: 20px;
+    color: #ffffff;
+    background:#000000d0;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+
+#footerIA{
+  margin-left: 2%;
+}
