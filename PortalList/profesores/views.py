@@ -3,7 +3,7 @@ from django.db import connection
 from django.db import connections
 from profesores.forms import IngresarProfesor
 from profesores.models import Materia, Lista, Profesor
-from administracion.models import Usuario, Grupo, Tienen, Pasan
+from administracion.models import Usuario, Grupo, Pasan
 from django.http import HttpResponseRedirect
 from django.http import HttpResponse
 from django.http import JsonResponse
