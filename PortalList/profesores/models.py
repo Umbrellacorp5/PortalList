@@ -1,9 +1,10 @@
 from enum import unique
 from django.db import models
+from administracion.models import Usuario
 
 # Create your models here.
 
-class Profesor(models.Model):
+class Profesor(Usuario):
     codProfesor = models.IntegerField(primary_key=True, null=False, unique = True)
     usuarioci = models.ForeignKey( to='administracion.Usuario',on_delete=models.CASCADE, null=False)
     cargo = models.CharField(max_length=255, null=False)

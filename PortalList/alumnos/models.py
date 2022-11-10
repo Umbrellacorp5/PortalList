@@ -1,11 +1,11 @@
 from django.db import models
 from django.forms import ModelForm
+from administracion.models import Usuario
 
 # Create your models here.
 
 
-class Alumno(models.Model):
-    codAlumno = models.IntegerField(primary_key=True, null=False)
+class Alumno(Usuario):
     usuarioci = models.ForeignKey(to='administracion.Usuario', on_delete=models.CASCADE, null=False)
     numPadre = models.CharField(max_length=255, null=False)
     fotoAlumno = models.ImageField(upload_to="Alumno")
